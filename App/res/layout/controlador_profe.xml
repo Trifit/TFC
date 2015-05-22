@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ProfeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/NomProfe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NomProfe"
+                android:textColor="@color/Blanc"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/TitolCorreu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/TitolCorreu"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/correu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Correu Electrònic"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/boton_correu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_correo"
+                android:text="Enviar"
+                android:textColor="@color/Blanc"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/TitolTrucar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/TitolTelefon"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero de telefon"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/boton_trucar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_tel"
+                android:text="Trucar"
+                android:textColor="@color/Blanc"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/TitolInternet"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/TitolInternet"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/web"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pàgina Web"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/boton_internet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_web"
+                android:text="Navegar"
+                android:textColor="@color/Blanc"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/TitolDespatx"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/TitolDespatx"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/despatx"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Despatx del professor"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TitolAssig"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/TitolAssig"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/assignatura"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Assignatures que imparteix"
+                android:textColor="@color/Blanc"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="25dp"
+                android:paddingTop="25dp"
+                android:src="@drawable/sintitulo" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/boton_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/btn_home" />
+
+</FrameLayout>

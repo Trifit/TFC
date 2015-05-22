@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="Vermell">#800202</color>
+<color name="Blau">#090454</color>
+<color name="Groc">#827a00</color>
+<color name="Vermell_Clar">#942728</color>
+<color name="Blau_Clar">#2e296d</color>
+<color name="Groc_Clar">#958e26</color>
+<color name="Blanc">#ffffff</color>
+<color name="Negre">#000000</color>
+<color name="ColorEsquerraGradient">#3d4953</color>
+<color name="ColorDretaGradient">#5680a3</color>
+</resources>

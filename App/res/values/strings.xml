@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplicatiu de l\'EETAC</string>
+
+    <!-- Strings del main.xml -->
+    <!-- botons -->
+    <string name="classe">Classe</string>
+    <string name="assignatura">Assignatura</string>
+    <string name="assig">Assig.</string>
+    <string name="profe">Professor</string>
+    <string name="scan">Escanejar QR</string>
+    <string name="sc">Scan QR</string>
+    <string name="info">Veure detalls classe</string>
+
+    <!-- Strings del controlador_classe.xml -->
+    <string name="TitolActual">La assignatura actual és:</string>
+    <string name="TitolFutur">La pròxima assignatura és:</string>
+    <string name="lista_vacia">No hay elementos en la lista</string>
+
+    <!-- Strings del controlador_profe -->
+    <string name="NomProfe">Nom del Professor</string>
+    <string name="TitolCorreu">Correu electrònic:</string>
+    <string name="TitolTelefon">Telefón:</string>
+    <string name="TitolInternet">Web:</string>
+    <string name="TitolDespatx">Despatx:</string>
+    <string name="TitolAssig">Assignatures que imparteix:</string>
+
+    <!-- Strings del menu -->
+    <string name="Sobre">Sobre</string>
+	<string name="Sobre_missatge">Aquesta aplicació ha estat creada, dissenyada i testejada per:\n<b>David Hernandez Parramon</b></string>
+</resources>

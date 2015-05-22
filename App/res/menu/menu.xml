@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/opcio_menu1"
+        android:icon="@drawable/icono_m_classe"
+        android:title="@string/classe"/>
+
+    <item
+        android:id="@+id/opcio_menu2"
+        android:icon="@drawable/icono_m_assig"
+        android:title="@string/assignatura"/>
+
+    <item
+        android:id="@+id/opcio_menu3"
+        android:icon="@drawable/icono_m_profe"
+        android:title="@string/profe"/>
+
+    <item
+        android:id="@+id/opcio_menu4"
+        android:icon="@drawable/icono_m_qr"
+        android:title="@string/scan"/>
+
+    <item
+        android:id="@+id/opcio_menu5"
+        android:icon="@drawable/icono_m_sobre"
+        android:title="@string/Sobre"/>
+
+</menu>

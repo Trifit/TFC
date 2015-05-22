@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buscar_classe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_classe"
+            android:height="84dp"
+            android:text="@string/classe"
+            android:textColor="@color/Blanc"
+            android:width="283dp" />
+
+        <Button
+            android:id="@+id/buscar_assignatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_assignatura"
+            android:height="84dp"
+            android:text="@string/assignatura"
+            android:textColor="@color/Blanc"
+            android:width="283dp" />
+   
+
+        <Button
+            android:id="@+id/buscar_profe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_profe"
+            android:height="84dp"
+            android:text="@string/profe"
+            android:textColor="@color/Blanc"
+            android:width="283dp" />
+
+        <Button
+            android:id="@+id/scan_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_qr"
+            android:height="84dp"
+            android:text="@string/scan"
+            android:textColor="@color/Blanc"
+            android:width="283dp" />
+    </LinearLayout>
+
+</ScrollView>
