@@ -1,8 +1,8 @@
 <h3>Final degree project</h3>
 
-<p>The objective of this project was to create an Android app, where thanks to QR codes we can get info of determinate class</p>
+<p>The main goal of this project is to create an Android app for phones where thanks to QR codes we can get info of determinate class</p>
 
-<p>We will be able also to get info about classes, subjects or teachers through a sqlite database that will synchronize with the school database</p>
+<p>We will be able, also, to get info about classes, subjects or teachers through a sqlite database that will synchronize with the school database</p>
 
 <p>Programs/tecnologies/frameworks used:</p>
 
