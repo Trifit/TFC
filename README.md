@@ -1,6 +1,6 @@
 <h3>Final degree project</h3>
 
-<p><strong>note: the app is in</strong></p>
+<p><strong>note: the app is in <a href="https://github.com/Trifit/TFC/tree/master/App">This folder</a></strong></p>
 <p>The main goal of this project is to create an Android app for phones where thanks to QR codes we can get info of determinate class</p>
 
 <p>We will be able, also, to get info about classes, subjects or teachers through a sqlite database that will synchronize with the school database</p>
