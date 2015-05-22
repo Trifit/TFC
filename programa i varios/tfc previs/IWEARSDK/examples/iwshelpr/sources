@@ -1,0 +1,23 @@
+TARGETTYPE=DRIVER
+TARGETNAME=IWSHELPR
+C_DEFINES=$(C_DEFINES)
+TARGETPATH= $(BUILD_ALT_DIR)
+USE_PDB=1
+
+#Debugging only!
+#VERIFIER_DDK_EXTENSIONS=1
+
+TARGETLIBS=\
+			$(DDK_LIB_PATH)\hid.lib\
+			$(DDK_LIB_PATH)\hidclass.lib \
+			$(DDK_LIB_PATH)\usbd.lib
+
+INCLUDES=\
+        $(INCLUDES);\
+        $(BASEDIR)\src\wdm\hid\inc;\
+        ..\..\inc
+
+SOURCES=\
+        iwshelpr.c\
+        sched.c\
+        iwshelpr.rc

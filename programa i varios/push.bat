@@ -1,0 +1,1 @@
+adb push C:\Users\David\workspace\Aplicatiu_de_l'EETAC\assets\Classes.db /data/data/com.dvd.clase/databases/Classes.db
